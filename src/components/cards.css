@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.cards .card{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 14rem;
+    height: 18rem;
+    box-shadow: 1px 1px 5px rgb(126, 126, 126);
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+.cards .card .card-color{
+    height: 70%;
+    width: 100%;
+    align-items: start;
+    border-radius: 8px;
+}

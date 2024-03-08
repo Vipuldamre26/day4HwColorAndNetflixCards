@@ -1,0 +1,93 @@
+.net-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.net-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    width: 80%;
+    margin: 2rem 0rem;
+    border-radius: 14px;
+    box-shadow: 720px 0px 109px -47px rgba(1, 6, 14, 0.89) inset;
+    padding: 2.8rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.net-card p{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.net-content, p, .net-content2{
+    width: 40%;
+}
+
+.net-content .net-img{
+    height: 150px;
+    width: 115px;
+}
+
+.net-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.net-content .content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 1.6rem;
+}
+
+.net-content .content .content1 h3{
+    text-align: left;
+    margin: 0.1rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.net-content .content .content1 span{
+    color: rgb(156, 200, 255);
+}
+
+.net-content .content .content2{
+    text-align: left;
+    margin: 1rem 0rem;
+}
+
+.net-content .content .content2 .yearSpan{
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+.net-card .net-content2{
+    height: 50%;
+    display: flex;
+    align-items: end;
+    
+}
+
+.net-card .net-content2 .icon{
+    margin: 0.4rem 1rem;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
